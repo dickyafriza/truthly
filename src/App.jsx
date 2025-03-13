@@ -29,6 +29,9 @@ function App() {
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
+            <a href="#blockchain">Blockchain</a>
+            <a href="#team">Team</a>
+            <a href="#faq">FAQ</a>
           </div>
         </nav>
       </header>
@@ -63,6 +66,36 @@ function App() {
           <p>Count: {count}</p>
           <button onClick={() => setCount(count + 1)}>Increment</button>
         </div>
+        <section id="blockchain" className="section">
+          <h2>How Blockchain Works in Truthly?</h2>
+          <p>Blockchain technology ensures the integrity and transparency of news articles by providing a decentralized and immutable ledger.</p>
+        </section>
+        <section id="team" className="section">
+          <h2>TEAM</h2>
+          <p>Meet the dedicated team behind Truthly, committed to delivering accurate and reliable news.</p>
+          <div className="team-grid">
+            <div className="team-card">
+              <h3>Dicky</h3>
+              <p>Team Member</p>
+            </div>
+            <div className="team-card">
+              <h3>Member 2</h3>
+              <p>Team Member</p>
+            </div>
+            <div className="team-card">
+              <h3>Member 3</h3>
+              <p>Team Member</p>
+            </div>
+            <div className="team-card">
+              <h3>Member 4</h3>
+              <p>Team Member</p>
+            </div>
+          </div>
+        </section>
+        <section id="faq" className="section">
+          <h2>FAQ</h2>
+          <p>Find answers to the most frequently asked questions about Truthly and our mission.</p>
+        </section>
       </main>
       <footer className="news-footer">
         <p>&copy; 2023 News Today. All rights reserved.</p>
